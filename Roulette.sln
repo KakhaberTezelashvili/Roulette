@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roulette.API", "Roulette.API\Roulette.API.csproj", "{0D471C48-EFB4-4FE9-AA55-EE6C0995E866}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roulette.Application", "Roulette.Application\Roulette.Application.csproj", "{642F30AF-7C70-45B4-B037-1BE81BA98CF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roulette.Domain", "Roulette.Domain\Roulette.Domain.csproj", "{E4D9B772-3C58-4820-9319-9887ABB5F906}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roulette.Infrastructure", "Roulette.Infrastructure\Roulette.Infrastructure.csproj", "{3E676D06-24BE-4FCF-975E-816D29802BD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roulette.Shared", "Roulette.Shared\Roulette.Shared.csproj", "{D2C23630-55D8-4658-BE79-8DBD36F42161}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferencedDLLs", "ReferencedDLLs", "{BB6FECB2-8620-4F6E-AE93-462D8B8175BA}"
+	ProjectSection(SolutionItems) = preProject
+		ReferencedDLLs\ge.singular.roulette.dll = ReferencedDLLs\ge.singular.roulette.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D471C48-EFB4-4FE9-AA55-EE6C0995E866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D471C48-EFB4-4FE9-AA55-EE6C0995E866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D471C48-EFB4-4FE9-AA55-EE6C0995E866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D471C48-EFB4-4FE9-AA55-EE6C0995E866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642F30AF-7C70-45B4-B037-1BE81BA98CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642F30AF-7C70-45B4-B037-1BE81BA98CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642F30AF-7C70-45B4-B037-1BE81BA98CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642F30AF-7C70-45B4-B037-1BE81BA98CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D9B772-3C58-4820-9319-9887ABB5F906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D9B772-3C58-4820-9319-9887ABB5F906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D9B772-3C58-4820-9319-9887ABB5F906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D9B772-3C58-4820-9319-9887ABB5F906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E676D06-24BE-4FCF-975E-816D29802BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E676D06-24BE-4FCF-975E-816D29802BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E676D06-24BE-4FCF-975E-816D29802BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E676D06-24BE-4FCF-975E-816D29802BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C23630-55D8-4658-BE79-8DBD36F42161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C23630-55D8-4658-BE79-8DBD36F42161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C23630-55D8-4658-BE79-8DBD36F42161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C23630-55D8-4658-BE79-8DBD36F42161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1137512F-D565-4A01-8481-10F46AD6E5BF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/kakhatezelashvili
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Roulette.API\\Roulette.API.csproj
+		SccProjectName1 = Roulette.API
+		SccLocalPath1 = Roulette.API
+		SccProjectUniqueName2 = Roulette.Application\\Roulette.Application.csproj
+		SccProjectName2 = Roulette.Application
+		SccLocalPath2 = Roulette.Application
+		SccProjectUniqueName3 = Roulette.Domain\\Roulette.Domain.csproj
+		SccProjectName3 = Roulette.Domain
+		SccLocalPath3 = Roulette.Domain
+		SccProjectUniqueName4 = Roulette.Infrastructure\\Roulette.Infrastructure.csproj
+		SccProjectName4 = Roulette.Infrastructure
+		SccLocalPath4 = Roulette.Infrastructure
+		SccProjectUniqueName5 = Roulette.Shared\\Roulette.Shared.csproj
+		SccProjectName5 = Roulette.Shared
+		SccLocalPath5 = Roulette.Shared
+	EndGlobalSection
+EndGlobal

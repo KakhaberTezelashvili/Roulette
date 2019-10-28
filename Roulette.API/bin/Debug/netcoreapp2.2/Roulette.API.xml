@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Roulette.API</name>
+    </assembly>
+    <members>
+        <member name="M:Roulette.API.Controllers.UserController.MakeBet(Roulette.Application.Commands.MakeBetCommand)">
+            <summary>
+            Method to make a bet
+            </summary>
+            <param name="command"></param>
+            <returns>Status, SpinID, Winning Number, WonAmount in cents.</returns>
+        </member>
+        <member name="M:Roulette.API.Controllers.UserController.SignIn(Roulette.Application.Queries.SignInQuery)">
+            <summary>
+            This method is used to sign into the app, 
+            system will automatically sign user out in 5 minutes 
+            </summary>
+            <param name="query"></param>
+            <returns>Generated JWT token</returns>
+        </member>
+        <member name="M:Roulette.API.Controllers.UserController.GetCurrentJackpot(Roulette.Application.Queries.JackPotQuery)">
+            <summary>
+            Method to retrieve current jackpot
+            </summary>
+            <returns>Current JackPot</returns>
+        </member>
+        <member name="M:Roulette.API.Controllers.UserController.GetUserGameHistory(Roulette.Application.Queries.GameHistoryQuery)">
+            <summary>
+            Method for requesting user's game history
+            </summary>
+            <param name="query"></param>
+            <returns>List of user bets</returns>
+        </member>
+        <member name="M:Roulette.API.Controllers.UserController.GetUserBalance(Roulette.Application.Queries.UserBalanceQuery)">
+            <summary>
+            Method retrieves user's current balance
+            </summary>
+            <param name="query"></param>
+            <returns>Users current balance</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="MySql.Data" Version="8.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Roulette.Application\Roulette.Application.csproj" />
+    <ProjectReference Include="..\Roulette.Domain\Roulette.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="PBG.Micro.CQRS">
+      <HintPath>..\..\..\..\..\Desktop\Projects\PBG.Micro\PBG.Micro.CQRS\bin\Debug\netstandard2.0\PBG.Micro.CQRS.dll</HintPath>
+    </Reference>
+    <Reference Include="PBG.Micro.DDD">
+      <HintPath>..\..\..\..\..\Desktop\Projects\PBG.Micro\PBG.Micro.CQRS\bin\Debug\netstandard2.0\PBG.Micro.DDD.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
