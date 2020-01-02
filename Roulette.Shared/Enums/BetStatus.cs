@@ -4,6 +4,7 @@
     {
         Accepted,
         Correct,
-        Won
+        Won,
+        Lost
     }
 }
