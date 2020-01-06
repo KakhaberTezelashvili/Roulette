@@ -19,8 +19,6 @@ namespace Roulette.API.Controllers
     {
         // master
 
-        // test
-
         private readonly ICommandBusAsync _commandBus;
         private readonly IQueryBusAsync _queryBus;
         private readonly IHttpContextAccessor _accessor;
