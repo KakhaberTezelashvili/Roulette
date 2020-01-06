@@ -18,6 +18,7 @@ namespace Roulette.API.Controllers
     public class UserController : ControllerBase
     {
         // first change
+        // second change
 
         private readonly ICommandBusAsync _commandBus;
         private readonly IQueryBusAsync _queryBus;
