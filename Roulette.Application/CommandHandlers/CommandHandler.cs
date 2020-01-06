@@ -12,10 +12,8 @@ namespace Roulette.Application.CommandHandlers
     {
         private readonly ICommandRepository _repository;
 
-        public CommandHandler(ICommandRepository repository)
-        {
-            _repository = repository;
-        }
+        public CommandHandler(ICommandRepository repository) 
+            => _repository = repository;
 
         public async Task<BetRow> HandleAsync(MakeBetCommand command)
         {
