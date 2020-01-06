@@ -17,6 +17,8 @@ namespace Roulette.API.Controllers
     [Authorize]
     public class UserController : ControllerBase
     {
+        // master
+
         // test
 
         private readonly ICommandBusAsync _commandBus;
