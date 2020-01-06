@@ -17,7 +17,7 @@ namespace Roulette.API.Controllers
     [Authorize]
     public class UserController : ControllerBase
     {
-        // master
+        // this is dev branch
 
         private readonly ICommandBusAsync _commandBus;
         private readonly IQueryBusAsync _queryBus;
